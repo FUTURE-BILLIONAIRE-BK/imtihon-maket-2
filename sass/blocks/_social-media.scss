@@ -1,0 +1,23 @@
+.social-media__list {
+  @include list-unstyled;
+  display: flex;
+  align-items: center;
+}
+
+.social-media__item:not(:last-child) {
+  margin-right: 15px;
+}
+
+.social-media__item-link {
+  text-decoration: none;
+  color: $color-primary;
+  font-family: $font-family-secondary;
+  font-weight: $font-weight-secondary;
+}
+
+@media only screen and (max-width:600px) {
+  .social-media__list {
+    display: flex;
+    flex-direction: column;
+  }
+}

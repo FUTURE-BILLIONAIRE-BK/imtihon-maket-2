@@ -1,0 +1,22 @@
+.site-footer {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background-color: $color-primary;
+}
+
+.site-footer__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-footer__logo-link {
+  display: block;
+}
+
+@media only screen and (max-width:600px) {
+  .site-footer {
+    display: flex;
+    flex-direction: column;
+  }
+}

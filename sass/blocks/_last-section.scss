@@ -1,0 +1,27 @@
+.last-section {
+  padding-top: 115px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 96px;
+}
+
+.last-section__text {
+  width: 100%;
+  max-width: 350px;
+  font-family: $font-family-primary;
+  font-weight: $font-weight-primary;
+  font-size: 40px;
+}
+
+.last-section__link {
+  text-decoration: none;
+  color: $color-primary;
+  font-family: $font-family-secondary;
+  font-weight: $font-weight-secondary;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border: 1px solid $color-primary;
+  padding: 17px 35px 17px 32px;
+}
